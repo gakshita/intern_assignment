@@ -1,12 +1,10 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
 import {
   NotificationsNoneOutlined,
   SmsOutlined,
   ExpandMoreOutlined,
   FiberManualRecord,
 } from "@material-ui/icons";
-import FeaturedExperts from "./find_expert.js/featured_experts";
 import FindExpertLayout from "./find_expert.js/layout";
 export default class Home extends React.Component {
   state = {
@@ -71,6 +69,7 @@ export default class Home extends React.Component {
           <button class="btn" style={{ color: "#f38454" }}>
             <img
               src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
               style={{ width: 33, height: 33, borderRadius: 100 }}
             ></img>
             <ExpandMoreOutlined />

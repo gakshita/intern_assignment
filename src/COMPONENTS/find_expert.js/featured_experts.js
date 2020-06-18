@@ -37,6 +37,7 @@ function Expert(props) {
           <div style={{ flexGrow: 1 }}>
             <img
               src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
               style={{ width: 72, height: 65, borderRadius: 100 }}
             ></img>
             <p style={{ marginTop: 10 }}>

@@ -1,5 +1,4 @@
 import React from "react";
-import FeaturedExperts from "./featured_experts";
 import { Search } from "@material-ui/icons";
 import { StarRate } from "@material-ui/icons";
 import OutlinedInput from "@material-ui/core/OutlinedInput";
